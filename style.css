@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("Images/bg.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1650px, 100vw);
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.55;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 62px;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 170px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.sign-in {
+    width: 90px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgb(255, 2, 2);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+}
+
+.lang {
+    width: 120px;
+    height: 36px;
+    color: rgb(252, 252, 252);
+    background-color: rgba(0, 0, 0, 0.32);
+    border-radius: 6px;
+    border-color: rgba(255, 255, 255, 0.583);
+    border-width: 0.1px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+
+.content {
+    height: 77%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 30px;
+}
+
+.line-1 {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    font-size: 55px;
+    position: relative;
+    text-align: center;
+}
+
+.line-2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+}
+
+.line-3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.mail {
+    padding-top: 10px;
+}
+
+.email {
+    width: 394px;
+    height: 60px;
+    color: rgb(252, 252, 252);
+    background-color: rgba(0, 0, 0, 0.66);
+    border-radius: 6px;
+    border-color: rgba(255, 255, 255, 0.583);
+    border-width: 0.1px;
+    padding-left: 15px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.start {
+    width: 230px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: rgb(230, 0, 0);
+    color: white;
+    border: none;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.seperation {
+    height: 12px;
+    background-color: rgba(128, 128, 128, 0.357);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    padding: 70px;
+}
+
+.image-1 {
+    position: relative;
+    display: flex;
+}
+
+.image-1 img {
+    width: 545px;
+    position: relative;
+    z-index: 10;
+}
+
+.image-1 video {
+    position: absolute;
+    padding-top: 72px;
+    right: 67px;
+    width: 406px;
+}
+
+.first > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-1 {
+    gap: 20px;
+}
+
+.first > div :nth-child(1) {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    font-size: 55px;
+}
+
+.first > div :nth-child(2) {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 27px;
+    top: 5px;
+}
+
+.image-3 {
+    position: relative;
+    display: flex;
+}
+
+.image-3 img {
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+}
+
+.image-3 video {
+    position: absolute;
+    padding-top: 30px;
+    width: 356px;
+    right: 93px;
+}
+
+.faq {
+    color: white;
+    padding: 34px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    font-size: 50px;
+    padding: 30px 0 15px 0;
+}
+
+.faqbox {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px;
+    margin: 10px auto;
+    max-width: 72vw;
+    background-color: rgb(50, 49, 49);
+    cursor: pointer;
+}
+
+.faqbox:hover {
+    background-color: rgb(69, 69, 69);
+    transition: all 0.27s ease-out;
+}
+
+.faq svg {
+    width: 35px;
+}
+
+.faq h3 {
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 20px;
+    padding: 40px 0 10px 0;
+}
+
+footer {
+    color: rgb(160, 160, 160);
+    max-width: 75vw;
+    margin: auto;
+    padding: 85px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.question {
+    padding: 10px 0 30px 0;
+    font-size: 20px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 18px;
+}
+
+.footer a {
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+}
+
+.adarsh {
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding-top: 3px;
+    font-size: 15px;
+    height: 25px;
+    background-color: gray;
+}
